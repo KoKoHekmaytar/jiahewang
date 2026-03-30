@@ -1,0 +1,14 @@
+{% if site.clustrmaps and site.clustrmaps.enabled and site.clustrmaps.site_id %}
+  <div class="clustrmaps text-center mx-auto mb-3" style="max-width: 360px;">
+    <script
+      type="text/javascript"
+      id="clustrmaps"
+      src="https://cdn.clustrmaps.com/map_v2.js?d={{ site.clustrmaps.site_id }}"
+    ></script>
+    <noscript>
+      <p>
+        <a href="https://clustrmaps.com/site/{{ site.clustrmaps.site_id }}" target="_blank" rel="noopener noreferrer">Visitor map (ClustrMaps)</a>
+      </p>
+    </noscript>
+  </div>
+{% endif %}

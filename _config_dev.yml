@@ -1,0 +1,6 @@
+# Merged after _config.yml for local Docker only (see bin/entry_point.sh).
+# Clears baseurl so the dev server mounts at http://localhost:8080/ (not /jiahewang/).
+# Without this, HTML can request /assets/... while WEBrick only serves the site under /jiahewang/, which causes 404s on JS/CSS.
+# GitHub Actions builds with _config.yml only (production url + /jiahewang/ baseurl unchanged).
+url: http://localhost:8080
+baseurl: ""
