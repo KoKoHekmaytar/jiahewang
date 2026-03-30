@@ -1,0 +1,39 @@
+/*******************************************************************************
+ * Album — photo grid by year (blog-style figures, not publication rows)
+ ******************************************************************************/
+
+.album-gallery {
+  margin-top: 0.5rem;
+
+  .album-year {
+    color: var(--global-theme-color);
+    font-size: 1.65rem;
+    font-weight: 600;
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  > h2.album-year:first-child {
+    margin-top: 0;
+  }
+
+  figure {
+    margin-bottom: 0;
+  }
+
+  figcaption.caption {
+    text-align: center;
+    margin-top: 0.65rem;
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+    line-height: 1.35;
+  }
+
+  picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

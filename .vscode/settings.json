@@ -1,0 +1,4 @@
+{
+  // Jekyll requires YAML front matter at the top of this file; the built-in SCSS validator cannot parse it.
+  "scss.validate": false
+}

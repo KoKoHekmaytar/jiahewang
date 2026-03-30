@@ -1,0 +1,23 @@
+<div class="album-gallery">
+  {% for y in site.data.album.years %}
+    <h2 class="album-year">{{ y.year }}</h2>
+    <div class="row g-4 album-year-row">
+      {% for item in y.items %}
+        <div class="col-12 col-sm-6 col-lg-4">
+          {% assign cap = item.title %}
+          {% if item.note %}
+            {% assign cap = cap | append: ' — ' | append: item.note %}
+          {% endif %}
+          {% include figure.liquid
+            path=item.img
+            caption=cap
+            class="img-fluid rounded z-depth-1 w-100"
+            zoomable=true
+            alt=cap
+            loading="lazy"
+          %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

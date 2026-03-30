@@ -102,7 +102,7 @@ clustrmaps:
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: blog # blog_name will be displayed in your blog page
+blog_name: blog # main heading on /blog/
 blog_description: notes and updates
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -272,8 +272,9 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+# Shown as quick links on the blog index; assign the same strings as `tags:` in posts
+display_tags: ["demo", "dairly", "study pipeline", "notes", "paper reading", "activity"]
+display_categories: [] # optional: e.g. ["news"] if you use categories
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

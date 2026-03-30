@@ -48,7 +48,7 @@ I am particularly interested in building **scalable and robust robotic systems**
 
 ---
 
-📌 Feel free to explore my publications, projects, and repositories, or reach out for collaboration.
+📌 Feel free to explore my publications, projects, and blogs, or reach out for collaboration.
 
 
 

@@ -1,0 +1,37 @@
+# Photos under assets/img/Album/ — edit titles or years here; paths must match filenames.
+# Add more rows anytime (e.g. Six_musical.jpg under a year).
+years:
+  - year: "2026"
+    items:
+      - title: "Compaq Big Band"
+        img: "assets/img/Album/Compaq Big Band.jpg"
+      - title: "Six (musical)"
+        img: "assets/img/Album/Six_musical.jpg"
+  - year: "2025"
+    items:
+      - title: "Hanns Zimmer"
+        img: "assets/img/Album/Hanns Zimmer.png"
+      - title: "Linkin Park"
+        note: "Photo 1"
+        img: "assets/img/Album/Linkin Park 1.jpg"
+      - title: "Linkin Park"
+        note: "Photo 2"
+        img: "assets/img/Album/Linkin Park 2.jpg"
+      - title: "MONO (Phoenix)"
+        img: "assets/img/Album/MONO_phoenix.jpg"
+  - year: "2024"
+    items:
+      - title: "Chen Li"
+        img: "assets/img/Album/Chen Li.jpg"
+      - title: "The Fin."
+        img: "assets/img/Album/the fin..jpg"
+      - title: "Suede"
+        img: "assets/img/Album/Suede.jpg"
+      - title: "MONO"
+        img: "assets/img/Album/MONO.jpg"
+      - title: "Imagine Dragons"
+        note: "Photo 1"
+        img: "assets/img/Album/Image Dragon 1.jpg"
+      - title: "Imagine Dragons"
+        note: "Photo 2"
+        img: "assets/img/Album/Image Dragon 2.jpg"
