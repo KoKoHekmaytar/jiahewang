@@ -19,7 +19,8 @@ footer_text: >
 
 keywords: robotics, soft robotics, koopman, control, # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+# Favicon: leave empty for a blank/neutral tab icon (see assets/img/favicon-blank.svg), one emoji (e.g. 🔬), or a filename in /assets/img/ (name longer than 4 characters, e.g. favicon.png).
+icon:
 
 # Project site: https://kokohekmaytar.github.io/jiahewang/ (repo KoKoHekmaytar/jiahewang)
 url: https://kokohekmaytar.github.io # the base hostname & protocol for your site
@@ -90,13 +91,6 @@ openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
-
-# ClustrMaps visitor map — https://www.clustrmaps.com/add
-# Use the `d=` value from your embed snippet (e.g. //cdn.clustrmaps.com/map_v2.js?d=YOUR_KEY).
-# For accurate stats for this site, register your GitHub Pages URL and paste the new key here.
-clustrmaps:
-  enabled: true
-  site_id: "1budk"
 
 # -----------------------------------------------------------------------------
 # Blog

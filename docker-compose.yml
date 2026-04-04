@@ -12,8 +12,9 @@ services:
     #     GROUPNAME: # id -gn
     #     USERID: # id -u
     #     USERNAME: # echo $USER
+    # Host 4000 → container 8080 (Jekyll). Use 4000 on Windows if 8080 fails with "forbidden by access permissions".
     ports:
-      - 8080:8080
+      - 4000:8080
       - 35729:35729
     volumes:
       - .:/srv/jekyll

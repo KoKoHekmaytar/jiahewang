@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First paper published in IEEE RA-L
-date: 2025-03-03 16:11:00-0400
+date: 2026-03-03 16:11:00-0400
 inline: false
 related_posts: false
 ---

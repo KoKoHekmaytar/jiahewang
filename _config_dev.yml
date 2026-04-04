@@ -1,6 +1,12 @@
 # Merged after _config.yml for local Docker only (see bin/entry_point.sh).
-# Clears baseurl so the dev server mounts at http://localhost:8080/ (not /jiahewang/).
+# Clears baseurl so the dev server matches docker-compose host port (see docker-compose.yml).
 # Without this, HTML can request /assets/... while WEBrick only serves the site under /jiahewang/, which causes 404s on JS/CSS.
 # GitHub Actions builds with _config.yml only (production url + /jiahewang/ baseurl unchanged).
-url: http://localhost:8080
+#
+# If the tab favicon, CSS, or images look wrong after changing theme files: run
+#   docker compose run --rm jekyll bundle exec jekyll clean
+# then restart the container so _site is rebuilt (stale output can keep an old emoji favicon or broken asset URLs).
+url: http://localhost:4000
 baseurl: ""
+# Match empty icon in _config.yml so local builds never pick up a cached default favicon.
+icon: ~
