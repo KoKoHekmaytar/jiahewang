@@ -21,12 +21,12 @@ The recommended approach is using Docker.
 ```bash
 # Initial setup & start dev server
 docker compose pull && docker compose up
-# Site runs at http://localhost:8080
+# Site runs at http://localhost:4000 (host port; container still uses 8080)
 
 # Rebuild after changing dependencies or Dockerfile
 docker compose up --build
 
-# Stop containers and free port 8080
+# Stop containers
 docker compose down
 ```
 
@@ -47,7 +47,7 @@ Before every commit, you **must** run these steps:
     # Rebuild the site
     docker compose up --build
 
-    # Verify by visiting http://localhost:8080.
+    # Verify by visiting http://localhost:4000.
     # Check navigation, pages, images, and dark mode.
     ```
 

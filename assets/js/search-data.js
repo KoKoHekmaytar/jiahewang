@@ -81,6 +81,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/jiahewang/news/announcement_2/";
+            },},{id: "news-research-featured-in-asu-news",
+          title: 'Research featured in ASU News',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/jiahewang/news/announcement_3/";
             },},{id: "projects-data-driven-modeling-and-control-of-soft-robotic-systems",
           title: 'Data-Driven Modeling and Control of Soft Robotic Systems',
           description: "2025: PDE+KOT+MPC+PIKO",
@@ -96,7 +101,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/jiahewang/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/jiahewang/assets/pdf/CV-04042026.pdf", "_blank");
         },
       },{
         id: 'social-email',
