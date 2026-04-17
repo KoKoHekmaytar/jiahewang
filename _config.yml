@@ -164,6 +164,11 @@ collections:
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
+# Publish posts and collection docs (e.g. `_news/`) whose `date` is still in the future.
+# If false (Jekyll default), items dated after the build machine’s “today” are omitted—so a new
+# news item can look “missing” on GitHub Pages until that calendar day passes.
+future: true
+
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
