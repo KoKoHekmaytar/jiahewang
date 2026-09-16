@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Teaching assistant experience and course involvement.",
+          description: "Teaching assistant experience and student mentorship.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/jiahewang/teaching/";
@@ -101,6 +101,11 @@ ninja.data = [{
           description: "Mentored student teams in quadruped leg mechanism design projects: From design to real prototype. [Article (WeChat)](https://mp.weixin.qq.com/s/i9UWTUfXf3zOfN1qTnEEnQ)",
           section: "Teachings",handler: () => {
               window.location.href = "/jiahewang/teachings/mechanisms-mechanical-design/";
+            },},{id: "teachings-system-dynamics-and-control",
+          title: 'System Dynamics and Control',
+          description: "Supported MAE 318 by helping update and improve the laboratory experiments.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/jiahewang/teachings/system-dynamics-and-control/";
             },},{
         id: 'social-cv',
         title: 'CV',
