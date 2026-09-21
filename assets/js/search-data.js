@@ -91,6 +91,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/jiahewang/news/announcement_4/";
+            },},{id: "news-passed-my-qualifying-exam",
+          title: 'Passed my Qualifying Exam',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/jiahewang/news/announcement_5/";
             },},{id: "projects-data-driven-modeling-and-control-of-soft-robotic-systems",
           title: 'Data-Driven Modeling and Control of Soft Robotic Systems',
           description: "2025: PDE+KOT+MPC+PIKO",
