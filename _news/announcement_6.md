@@ -24,6 +24,6 @@ Throughout the conference, I had the opportunity to present this work through:
 
 I am especially grateful to Dr. Dongting Li, Dr. Dario Sanalitro, Dr. Haitao Qing, and Dr. Wei Wang for the invitations and opportunities to share our work with these communities.
 
-It was great to share our work at IROS alongside my labmates, Rohan Khatavkar and Eric Weissman. We are all members of the [Robotic Actuators and Dynamics Lab](https://sunrobotics.lab.asu.edu/) supervised by [Dr. Jiefeng Sun](https://jiefengsun.github.io/) at Arizona State University.
+{% include figure.liquid path="assets/img/News/IROS2026_1.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="IROS 2026 presentation and conference moments" %}
 
-Go Devils!
+{% include figure.liquid path="assets/img/News/IROS2026_2.jpg" class="img-fluid rounded z-depth-1" zoomable=true alt="IROS 2026 with labmates and conference community" %}

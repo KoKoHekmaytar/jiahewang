@@ -3,6 +3,12 @@
 years:
   - year: "2026"
     items:
+      - title: "Albuquerque International Balloon Fiesta"
+        img: "assets/img/Album/Albuquerque International Balloon Fiesta.jpg"
+      - title: "The Phantom of the Opera"
+        img: "assets/img/Album/The Phantom of the Opera.jpg"
+      - title: "Visit in Pittsburgh"
+        img: "assets/img/Album/Visit in Pittsburge.png"
       - title: "Compaq Big Band"
         img: "assets/img/Album/Compaq Big Band.jpg"
       - title: "Six (musical)"
