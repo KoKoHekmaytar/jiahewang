@@ -96,6 +96,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/jiahewang/news/announcement_5/";
+            },},{id: "news-sharing-our-work-at-iros-2026",
+          title: 'Sharing our work at IROS 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/jiahewang/news/announcement_6/";
             },},{id: "projects-data-driven-modeling-and-control-of-soft-robotic-systems",
           title: 'Data-Driven Modeling and Control of Soft Robotic Systems',
           description: "2025: PDE+KOT+MPC+PIKO",
