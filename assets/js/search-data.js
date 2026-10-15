@@ -101,6 +101,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/jiahewang/news/announcement_6/";
+            },},{id: "news-demo-at-the-2026-national-summit-on-artificial-intelligence",
+          title: 'Demo at the 2026 National Summit on Artificial Intelligence',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/jiahewang/news/announcement_7/";
             },},{id: "projects-data-driven-modeling-and-control-of-soft-robotic-systems",
           title: 'Data-Driven Modeling and Control of Soft Robotic Systems',
           description: "2025: PDE+KOT+MPC+PIKO",
