@@ -3,7 +3,7 @@ layout: page
 title: Data-Driven Modeling and Control of Soft Robotic Systems
 description: "2025: PDE+KOT+MPC+PIKO"
 img: assets/img/publication_preview/RAL2026.png
-importance: 1
+importance: 2
 category: research
 related_publications: true
 ---

@@ -9,8 +9,8 @@ student_mentors:
   - name: Sultan Haidar Ali
     linkedin:
     website:
-    portrait:
-    project_image:
+    portrait: assets/img/mentors/sultan_haidar_ali.png
+    project_image: assets/img/mentors/sultan_3segment_robot.png
     project: 3-Segment Continuum Robot
     description: Driven by QDD motors using open-loop control.
   - name: Luka Lin
@@ -20,6 +20,20 @@ student_mentors:
     project_image:
     project: 2-Segment Joystick-Controlled Robot Demo Box
     description: An interactive robot demonstration box designed for K–12 outreach.
+  - name: Dominic Alamsjah
+    linkedin: https://www.linkedin.com/in/dominic-alamsjah-081839418/
+    website:
+    portrait: assets/img/mentors/dominic_alamsjah.png
+    project_image:
+    project: 5-Segment Continuum Robot Arm
+    description: Multi-segment continuum robot arm design and development.
+  - name: Adam Eliason
+    linkedin: https://www.linkedin.com/in/adameliason/
+    website:
+    portrait: assets/img/mentors/adam_eliason.png
+    project_image:
+    project: IMU Embedded Sensing and High-Current Circuit Design
+    description: Embedded IMU sensing with high-current circuit design for robotic systems.
 ---
 
 ## Teaching Experience
